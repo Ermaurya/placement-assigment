@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="contianer">
+      <div class="calendar">
+        <div class="calendar-header">
+          <span class="get-month" id="month-picker"> May </span>
+          <div class="get-year" id="year-picker">
+            <span class="get-change-year" id="pre-year">
+              <pre>◀</pre>
+            </span>
+            <span id="year"> </span>
+            <span class="get-change-year" id="next-year">
+              <pre>▶</pre>
+            </span>
+          </div>
+        </div>
+ 
+        <div class="calendar-body">
+          <div class="calendar-week-days">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="calendar-days">
+          </div>
+        </div>
+        <div class="calendar-footer">
+        </div>
+        <div class="date-time-formate">
+          <div class="search-month year">
+            <input type="text" placeholder="mm/yyyy"id="datainput" class="date-input" />
+            <button class="search-btn">search</button>
+          </div>
+          <div class="date-time-value">
+            
+          </div>
+        </div>
+        <div class="month-list"></div>
+      </div>
+    </div>
+  </body>
+</html>
